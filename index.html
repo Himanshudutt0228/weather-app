@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <form id="weatherform">
+        <div id="info">
+            <label for="city">Enter City</label>
+            <input type="text" id="city" placeholder="Enter city..." required>
+            <button id="btn" type="submit">Search</button>
+        </div>
+            
+        
+   </form>
+
+    <div id="display">
+        <h1 id="cityname">City: Toronto</h1>
+
+            <h1 id="temp">Temp: 20&deg;</h1>
+
+            <h1 id="Forcast">Forecast: Cloudy</h1>
+        <div id="details">
+            
+            <h2 id="feels">Feels Like:</h2>
+
+            <h2 id="high">High:</h2>
+
+            <h2 id="low">Low:</h2>
+
+            <h2 id="humidity">Humidity:</h2>
+
+            <h2 id="wind">Wind:</h2>
+        </div>
+
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
